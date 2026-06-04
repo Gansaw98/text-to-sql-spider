@@ -1,0 +1,9 @@
+# Local development and evaluation dependencies.
+# Training runs on Kaggle — those packages are not listed here.
+
+groq>=0.11.0
+transformers>=4.45.0
+datasets>=3.0.0
+python-dotenv>=1.0.0
+pandas>=2.0.0
+tqdm>=4.66.0

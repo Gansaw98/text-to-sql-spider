@@ -1,0 +1,51 @@
+# Environment — never commit real credentials
+.env
+*.env
+
+# Spider SQLite databases — 1.2 GB, never commit
+data/spider/database/
+data/spider/test_database/
+
+# Model checkpoints and adapter weights
+*.safetensors
+*.bin
+qwen-text2sql-*/
+*.pt
+*.pth
+
+# Raw prediction JSON files — too large
+results/*.json
+
+# Deployment extras — not needed on GitHub
+deployment/README.md
+deployment/requirements.txt
+deployment/.gitkeep
+
+# Training utilities
+training/_measure_lengths.py
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.ipynb_checkpoints/
+*.egg-info/
+dist/
+build/
+
+# Spider dataset files — download from Yale-LILY/spider
+spider/
+data/spider/*.json
+data/spider/*.sql
+data/spider/*.txt
+data/__MACOSX/
+data/spider/database/
+data/spider/test_database/
+
+# macOS artifacts
+__MACOSX/
+.DS_Store
+
+# Local IDE
+.vscode/
+.idea/
