@@ -2,7 +2,7 @@
 
 Fine-tuned **Qwen2.5-Coder-7B-Instruct** with LoRA (QLoRA, 4-bit NF4) on the [Spider benchmark](https://yale-lily.github.io/spider), achieving **77.7% execution accuracy** — outperforming a zero-shot Llama 3.3-70B baseline by **+24.5%**.
 
-**HuggingFace Adapter:** [Gansaw98/qwen2.5-coder-7b-text2sql-spider](https://huggingface.co/Gansaw98/qwen2.5-coder-7b-text2sql-spider)
+**🤗 HuggingFace Adapter:** [Gansaw98/qwen2.5-coder-7b-text2sql-spider](https://huggingface.co/Gansaw98/qwen2.5-coder-7b-text2sql-spider) | **🚀 Live Demo:** [text-to-sql-demo](https://huggingface.co/spaces/Gansaw98/text-to-sql-demo)
 
 ---
 
